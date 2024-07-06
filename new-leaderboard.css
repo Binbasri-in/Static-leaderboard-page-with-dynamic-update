@@ -1,0 +1,51 @@
+body {
+    background-color: #171e3f; /* Dark blue background */
+    color: #0e124e; /* Light grey text color for better visibility */
+    font-family: 'Press Start 2P', cursive; /* Pixelated font for geeky vibe */
+}
+
+.container {
+    background-color: #096540; /* Dark blue, almost purple background for container */
+    border-radius: 8px;
+    padding: 20px;
+    border: 2px solid #6741d9; /* Deep purple border */
+    box-shadow: 0 2px 5px rgba(58, 12, 163, 0.2); /* Subtle shadow with a purple tint */
+}
+
+.table {
+    background: transparent;
+    border-collapse: separate;
+    border-spacing: 0 1px;
+}
+
+.neon th {
+    text-shadow:
+        0 0 7px #ea188c,
+        0 0 10px #d12525,
+        0 0 21px #aa1a58; /* Purple glow for headers */
+}
+/* Sticky header styles */
+.table thead th {
+    position: sticky;
+    /* top: 0; Set to the top of the scrollable area */
+    background-color: #1e2036; /* Ensure the background isn't transparent */
+    /* z-index: 1020; Higher than tbody but lower than fixed elements */
+}
+
+/* You may need to adjust the shadow or borders to make it visually seamless */
+.neon th {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Optional: adds a shadow to the headers */
+}
+th, td {
+    text-align: center;
+    padding: 12px;
+    font-size: 16px;
+    color: #c7c8d9; /* Light grey text color for better visibility */
+}
+
+/* Hover effect for rows */
+tbody tr:hover {
+    background-color: #24264d; /* Darker blue when hovering over rows */
+    cursor: pointer;
+}
+
